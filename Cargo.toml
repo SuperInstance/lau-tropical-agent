@@ -1,0 +1,15 @@
+[package]
+name = "lau-tropical-agent"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-tropical-agent"
+description = "Tropical geometry for agent decisions — the ℏ→0 computational limit where everything becomes piecewise-linear"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+nalgebra = "0.33"
+
+[dev-dependencies]
+approx = "0.5"
